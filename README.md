@@ -16,7 +16,7 @@ La vulnérabilité exploite un backdoor dans le code de l’archive Unreal IRCD,
 [cve link](https://www.rapid7.com/db/modules/exploit/unix/irc/unreal_ircd_3281_backdoor)
 #### Solution : Mettre à jour à la version 4.0.1
 Pour corriger, il faut mettre à jour la version du package unreal ircd mais on ne peut pas tester car la machine de metasploitable ne peut pas télécharger des packages.
-Pour palier à ce problème, il faut télécharger sur notre machine local le package Unreal ircd et l'enlever par scp sur la machine metasploitable.
+Pour palier à ce problème, il faut télécharger sur notre machine local le package Unreal ircd et l'envoyer par scp sur la machine metasploitable.
 Les commandes à suivre :
 -./Config
 -make
