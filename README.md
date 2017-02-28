@@ -49,3 +49,8 @@ Il manque un "=" lors de la gestion de requêtes, cela permet aux hackers d'éx�
 ![image](https://github.com/panduki/SIE/blob/master/images/apache.PNG)
 #### Solution :
 Mettre à jour PHP à la version 5.4.2
+
+
+### Note:
+
+20
