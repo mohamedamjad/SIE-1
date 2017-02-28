@@ -39,10 +39,13 @@ Il faut envoyer par scp le package.
 
 ## Troisieme vulnérabilité
 
-### APACHE
+### APACHE HTTPD
 
 #### Constat
-
+Il manque un "=" lors de la gestion de requêtes, cela permet aux hackers d'éxécuter du code.
 #### Lien du CVE
-[cve link](https://www.rapid7.com/db/modules/exploit/multi/http/apache_mod_cgi_bash_env_exec)
+[cve link](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2012-1823)
+
+![image](https://github.com/panduki/SIE/blob/master/images/apache.PNG)
 #### Solution :
+Mettre à jour PHP à la version 5.4.2
