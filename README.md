@@ -9,7 +9,7 @@
 
 ### IRC
 
-![image]()
+![image](SIE/images/irc.png)
 #### Constat
 La vulnérabilité exploite un backdoor dans le code de l’archive Unreal IRCD, ce backdoor était présent dans l’archive du code entre novembre 2009 et Juin 2010.
 #### Lien du CVE
@@ -31,6 +31,17 @@ La vulnérabilité exploite un backdoor dans le code de l'archive de vsftpd dans
 #### Lien du CVE
 [cve link](https://www.rapid7.com/db/modules/exploit/unix/ftp/vsftpd_234_backdoor)
 #### Solution : Mettre à jour
+[installation](http://www.thegeekstuff.com/2010/11/vsftpd-setup/)
 Pour corriger, il faut mettre à jour la version du package vsftpd, même erreur que précédent.
 Il faut envoyer par scp le package.
 ![image]()
+
+## Troisieme vulnérabilité
+
+### APACHE
+
+#### Constat
+
+#### Lien du CVE
+[cve link](https://www.rapid7.com/db/modules/exploit/multi/http/apache_mod_cgi_bash_env_exec)
+#### Solution :
